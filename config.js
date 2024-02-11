@@ -108,7 +108,8 @@ const CONFIG = {
 					link: 'https://open.spotify.com/playlist/5YHLdrygNyLTguirxuYJ4i',
 				},
 			],
-
+		},
+		{
 			icon: 'book',
 			id: '2',
 			links : [
