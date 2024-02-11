@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '6cd6c2f4741ee4cb5ee315fcb94b56ac', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -67,7 +67,7 @@ const CONFIG = {
 			id: '3',
 			name: 'Netflix',
 			icon: 'popcorn',
-			link: 'https://todoist.com',
+			link: 'https://netflix.com',
 		},
 		{
 			id: '4',
