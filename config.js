@@ -101,7 +101,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'krnb and things',
-					link: 'https://docs.google.com/document/u/0/?pli=1',
+					link: 'https://open.spotify.com/playlist/7JhoZPW6Jr4x36nZClGXPo',
 				},
 				{
 					name: 'bitchin',
@@ -111,5 +111,20 @@ const CONFIG = {
 		},
 	],
 
-	secondlistsContainer: [],
+	secondlistsContainer: [
+		{
+			icon: 'book',
+			id: '1',
+			links : [
+				{
+					name: 'google docs',
+					link: 'https://docs.google.com/document/u/0/?pli=1',
+				},
+				{
+					name: 'canva',
+					link: 'https://canva.com',
+				},
+			],
+		},
+	],
 };
