@@ -108,13 +108,9 @@ const CONFIG = {
 					link: 'https://open.spotify.com/playlist/5YHLdrygNyLTguirxuYJ4i',
 				},
 			],
-		},
-	],
 
-	secondlistsContainer: [
-		{
 			icon: 'book',
-			id: '1',
+			id: '2',
 			links : [
 				{
 					name: 'google docs',
