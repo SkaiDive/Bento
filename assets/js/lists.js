@@ -26,7 +26,7 @@ const generateFirstListsContainer = () => {
 };
 
 const generateSecondListsContainer = () => {
-	for (const list of CONFIG.secondlistsContainer) {
+	for (const list of CONFIG.firstlistsContainer) {
 		let item = `
         <div class="card list list__${list.id}" id="list_${list.id}">
           <i class="listIcon" icon-name="${list.icon}"></i>
