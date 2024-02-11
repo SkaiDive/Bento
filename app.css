@@ -18,7 +18,7 @@
 
   /* Fonts Color */
   --fg: #f0b6d5; /* Foreground color */
-  --sfg: #2c292e; /* Sceondary Foreground color */
+  --sfg: #fb6f92; /* Sceondary Foreground color */
 
   /* Light Colors  */
   --accent: #f0b6d5; /* Hover color */
@@ -40,8 +40,8 @@
   --cards: #201e21; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --fg: #fb6f92; /* Foreground color */
+  --sfg: #f0b6d5; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
