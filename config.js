@@ -104,7 +104,7 @@ const CONFIG = {
 					link: 'https://docs.google.com/document/u/0/?pli=1',
 				},
 				{
-					name: 'bitchin'',
+					name: 'bitchin',
 					link: 'https://open.spotify.com/playlist/5YHLdrygNyLTguirxuYJ4i',
 				},
 			],
