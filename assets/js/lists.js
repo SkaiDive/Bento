@@ -25,28 +25,6 @@ const generateFirstListsContainer = () => {
 	}
 };
 
-const generateSecondListsContainer = () => {
-	for (const list of CONFIG.firstlistsContainer) {
-		let item = `
-        <div class="card list list__${list.id}" id="list_${list.id}">
-          <i class="listIcon" icon-name="${list.icon}"></i>
-          <a
-          target="${CONFIG.openInNewTab ? '_blank' : ''}"
-          href="${list.links[0].link}"
-          class="listItem"
-          >${list.links[0].name}</a>
-          <a
-          target="${CONFIG.openInNewTab ? '_blank' : ''}"
-          href="${list.links[1].link}"
-          class="listItem"
-          >${list.links[1].name}</a>
-        </div>
-      `;
-		const position = 'beforeend';
-		lists_1.insertAdjacentHTML(position, item);
-	}
-};
-
 const generateLists = () => {
 	switch (CONFIG.bentoLayout) {
 		case 'bento':
@@ -54,7 +32,6 @@ const generateLists = () => {
 			break;
 		case 'lists':
 			generateFirstListsContainer();
-			generateSecondListsContainer();
 			break;
 		default:
 			break;
