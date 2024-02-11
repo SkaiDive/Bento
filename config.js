@@ -54,7 +54,7 @@ const CONFIG = {
 		{
 			id: '1',
 			name: 'Spotify',
-			icon: 'spotify',
+			icon: 'headphones',
 			link: 'https://open.spotify.com/',
 		},
 		{
@@ -100,7 +100,7 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: '⭐',
+					name: 'krnb and things',
 					link: 'https://docs.google.com/document/u/0/?pli=1',
 				},
 				{
